@@ -1,0 +1,26 @@
+QWidget#MainWindow {
+                border: 1px solid rgb(111, 156, 207);
+                background: rgb(232, 241, 252);
+}
+
+
+
+
+QPushButton{
+    border-image:url(://Image/btn2_normal.png) 10 10 10 10;
+    border: 10px transparent;
+}
+
+QPushButton:pressed{
+    border-image:url(://Image/btn2_pressed.png) 10 10 10 10;
+    border: 10px transparent;
+}
+
+QPushButton:disabled {
+    border-image:url(://Image/btn2_disabled.png) 10 10 10 10;
+    border: 10px transparent;
+}
+
+
+
+
