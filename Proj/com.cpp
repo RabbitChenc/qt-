@@ -19,8 +19,8 @@ void com::whiteStyle(void)
 {
 
      qApp->setStyleSheet("QWidget#MainWindow {"
-                         "border: 1px solid rgb(111, 156, 207);"
-                         "background: rgb(232, 241, 252);"
+                         "border: 1px solid rgb(r, g, b);"
+                         "background: rgb(232,241,252);"
                          "}"
                          "QPushButton{"
                          "border-image:url(://Image/btn2_normal.png) 10 10 10 10;"

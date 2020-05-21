@@ -17,9 +17,20 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
 
-    void on_pushButton_2_clicked();
+    void on_styleWhite_triggered();
+    void on_styleBlack_triggered();
+    void on_yesRadioButton_clicked();
+    void on_noRadioButton_clicked();
+    void on_closeAction_triggered();
+
+    void on_openAction_triggered();
+
+    void on_fontAction_triggered();
+
+    void on_colorAction_triggered();
+
+    void on_aboutAction_triggered();
 
 private:
     Ui::MainWindow *ui;
